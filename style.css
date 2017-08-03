@@ -1,3 +1,86 @@
-.vertical-center {
-  height: 100vh;
+/* Grid properties
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+.grid-container-splash {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  min-height: 100vh;
+}
+
+/*.grid-container-applications {
+  display: grid;
+  grid-template-columns: 1fr 5fr 3fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  min-height: 100vh;
+}*/
+/* Header section properties
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+.pop {
+  z-index: 1;
+}
+
+.name,
+.hero {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+.name {
+  font-size: 2.5em;
+  text-transform: lowercase;
+  /*color: whitesmoke;*/
+}
+
+#eric {
+  color: #292B2C;
+}
+
+.hero {
+  font-size: 5em;
+  /*color: whitesmoke;*/
+}
+
+.sub-hero {
+  font-weight: 700;
+  line-height: 5em;
+  text-transform: uppercase;
+  color: whitesmoke;
+}
+
+#header:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #1FA2FF;
+  background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);
+  background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);
+  opacity: 0.6; 
+}
+
+
+/* applications section properties
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+#applications {
+  background: #F3F3F3;
+}
+
+/* Contact section properties
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+#contact {
+}
+
+/* Footer section properties
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+#footer {
+  height: 50vh;
+  background: #212121;
+}
+
+/* Utilities
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+.shade {
+  background: rgba(0,0,0,0.5);
 }
