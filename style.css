@@ -1,12 +1,18 @@
 /* Grid properties
 ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
-.grid-container {
+.grid-container-splash {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   min-height: 100vh;
 }
 
+/*.grid-container-applications {
+  display: grid;
+  grid-template-columns: 1fr 5fr 3fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  min-height: 100vh;
+}*/
 /* Header section properties
 ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
 .pop {
@@ -22,7 +28,7 @@
 .name {
   font-size: 2.5em;
   text-transform: lowercase;
-  color: whitesmoke;
+  /*color: whitesmoke;*/
 }
 
 #eric {
@@ -31,13 +37,14 @@
 
 .hero {
   font-size: 5em;
-  color: whitesmoke;
+  /*color: whitesmoke;*/
 }
 
 .sub-hero {
   font-weight: 700;
   line-height: 5em;
   text-transform: uppercase;
+  color: whitesmoke;
 }
 
 #header:before{
@@ -47,55 +54,22 @@
   right: 0;
   bottom: 0;
   left: 0;
-
-background: #1FA2FF;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
-
+  background: #1FA2FF;
+  background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);
+  background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);
   opacity: 0.6; 
 }
-
-#header:after{
-  content: "";
-  position: fixed; 
-  top: 0;
-  height: 100vh; 
-  left: 0;
-  right: 0;
-  z-index: -1; 
-  background: url(https://res.cloudinary.com/jescobedo/image/upload/v1498618462/P8160411-compressor_mzpc3e.jpg) center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 
 
 /* applications section properties
 ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
 #applications {
-  height: 100vh;
-  /*font-family: 'Open Sans', sans-serif;*/
-  background: whitesmoke;
-  /*font-weight: 700;*/
-
-}
-
-/* Project detail section properties
-––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
-#detail {
-  height: 100vh;
-  background: whitesmoke;
+  background: #F3F3F3;
 }
 
 /* Contact section properties
 ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
 #contact {
-  height: 100vh;
-  background: whitesmoke;
 }
 
 /* Footer section properties
