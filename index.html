@@ -2,43 +2,182 @@
 <html>
 <head>
   <title>Jon Eric Escobedo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Bootstrap 4 CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
+  <!-- WOW animation CSS -->
+  <link rel="stylesheet" href="./animate.css">
+
   <!-- Stylesheet -->
   <link rel="stylesheet" href="style.css">
+
+  <!-- Font Awesome -->
+  <script src="https://use.fontawesome.com/88c3d7cad7.js"></script>
+
+  <!-- Google font -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
 
 </head>
 <body>
 
-  <header>
+  <!-- Header -->
+  <header id="header">
     <div class="container">
+
       <div class="row">
         <div class="col-sm-12">
-          <h1>jon eric escobedo</h1> 
-          <h1 class="text-center hero">full-stack engineer</h1>
+          <h1 class="text-center fat-font">jon eric escobedo</h1> 
+        </div>
+      </div>
+
+      <div class="row vertical-align">
+        <div class="col-sm-12 wow bounceInDown">
+          <h1 class="text-center fat-font hero">full-stack engineer</h1>
           <p class="text-center sub-hero text-muted">javascript | html | css</p>
         </div>
       </div>
+
     </div>
   </header>
 
   <!-- Applications -->
-  <section>
+  <section id="applications">
+    <h1 class="text-center display-4 fat-font push-down">Applications</h1>
     
+    <div class="container">
+      <div class="row">
+        
+        <!-- Safe California -->
+        <div class="col-sm-8">
+          <div class="wow zoomIn">
+            <a href="http://recordit.co/bu20J8simZ" target="_blank"><img src="./assets/safecalifornia/safecaliforniamock2.png" class="img-fluid"/></a>
+          </div>
+        </div>
+        <div class="col-sm-4 wow bounceInRight">
+          <div class="app-title">
+            <h3 class="tech-sheet fat-font">Safe California</h3>
+            <p class="lead small"><strong>*Winner of the 2017 AngelHack Silicon Valley National Environmental Health Association Challenge*</strong></p>
+          </div>
+          
+          <div class="app-description">
+            <p>An application that reports environmental data from CalEnviroScreen - built in less than 24-hours.</p>
+          </div>
+
+          <p class="fat-font h4">Technical sheet</p>
+          <p>Technologies I got involved with on this project</p>
+          <hr>
+          <ul>
+            <li>HTML - semantic</li>
+            <li>CSS - Bootstrap 4, MDBootstrap</li>
+            <li>JS - ReactJS, Redux, Node.js, Express.js</li>
+            <li>DB / ORM - PostgreSQL, Bookshelf.js, Knex.js</li>
+          </ul>
+          <a href="https://github.com/AngelHackReactor/CalEnvironment" target="_blank"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
+        </div>
+
+        <!-- BestFit -->
+        <div class="col-sm-8">
+          <div class="wow zoomIn">
+            <a href="http://www.bestfitsearch.info" target="_blank"><img src="./assets/bestfit/bestfitmock2.png" class="img-fluid"/></a>
+          </div>
+        </div>
+        <div class="col-sm-4 wow bounceInRight">
+          <div class="app-title">
+            <h3 class="tech-sheet fat-font">BestFit</h3>
+          </div>
+          <div class="app-description">
+            <p>An application that helps you find jobs that best match your unique technical skillset.</p>
+          </div>
+          <p class="fat-font h4">Technical sheet</p>
+          <p>Technologies I got involved with on this project</p>
+          <hr>
+          <ul>
+            <li>HTML - semantic</li>
+            <li>CSS - Bootstrap 4, MDBootstrap</li>
+            <li>JS - ReactJS, Node.js, Express.js, Material UI</li>
+            <li>DB / ORM - PostgresQL, Bookshelf.js, Knex.js</li>
+          </ul>
+          <a href="https://github.com/WittyWoks/WittyWoks" target="_blank"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
+        </div>
+
+        <!-- What's In The Pantry -->
+        <div class="col-sm-8">
+          <div class="wow zoomIn">
+            <a href="http://recordit.co/dQPtQgDA8b" target="_blank"><img src="./assets/pantry/pantrymock2.png" class="img-fluid"/></a>
+          </div>
+        </div>
+        <div class="col-sm-4 wow bounceInRight">
+          <div class="app-title">
+            <h3 class="tech-sheet fat-font">What's In The Pantry</h3>
+          </div>
+          <div class="app-description">
+            <p>Recipe finder that fetches recipes based on ingredients you have on hand, or in your pantry.</p>
+          </div>
+          <p class="fat-font h4">Technical sheet</p>
+          <p>Technologies I got involved with on this project</p>
+          <hr>
+          <ul>
+            <li>HTML - semantic</li>
+            <li>CSS - Bootstrap 4</li>
+            <li>JS - ReactJS, Redux, Node.js, Express.js, Material UI</li>
+            <li>DB / ORM - PostgreSQL, Sequelize</li>
+          </ul>
+          <a href="https://github.com/apologeticGodzillas/infamousfrogs" target="_blank"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
+        </div>
+
+        <!-- Valence -->
+        <div class="col-sm-8">
+          <div class="wow zoomIn">
+            <a href="http://recordit.co/6F1obh7lO2" target="_blank"><img src="./assets/valence/valencemock2.png" class="img-fluid"/></a>
+          </div>
+        </div>
+        <div class="col-sm-4 wow bounceInRight">
+          <div class="app-title">
+              <h3 class="tech-sheet fat-font">Valence</h3>
+          </div>
+          <div class="app-description">
+            <p>A lifestyle application that helps users track their sleeping, eating, and mood habits.</p>
+          </div>
+          <p class="fat-font h4">Technical sheet</p>
+          <p>Technologies I got involved with on this project</p>
+          <hr>
+          <ul>
+            <li>HTML - semantic</li>
+            <li>CSS - Bootstrap 4</li>
+            <li>JS - ReactJS, Node.js, Express.js</li>
+            <li>DB / ORM - MySQL</li>
+          </ul>
+          <a href="https://github.com/apologeticGodzillas/apologeticGodzillas" target="_blank"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
+        </div>
+
+      </div>
+    </div>
   </section>
 
   <!-- Contact -->
-  <section>
-    
+  <section id="contact">
+    <h1 class="text-center display-4 fat-font push-down">Contact</h1>
+    <div class="container-fluid">
+      <div class="row push-down">
+        <div class="col-sm-4 wow bounceInLeft">
+          <img src="./assets/joneric-aws-small.png" class="rounded mx-auto d-block"/>
+        </div>
+        <div class="col-sm-4 wow flipInX">
+          <h3 class="fat-font">Let's get in touch!</h3>
+          <p class="lead">Reach out and let's chat.</p>
+          <p>Email: <a href="mailto:jonericescobedo@gmail.com">jonericescobedo@gmail.com</a></p>
+        </div>
+        <div class="col-sm-4 wow bounceInRight">
+          <h3 class="fat-font">Networks</h3>
+          <p class="lead">You can find me on LinkedIn and GitHub.</p>
+          <p><a href="http://www.linkedin.com/in/jonericescobedo" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i> jonericescobedo</a></p>
+          <p><a href="http://www.github.com/jonericescobedo" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i> jonericescobedo</a></p>
+        </div>
+      </div>
+    </div>
   </section>
-
-  <!-- Footer -->
-  <footer>
-    
-  </footer>
-
 
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
@@ -48,6 +187,13 @@
 
   <!-- Bootstrap 4 JS -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+  <!-- WOW JS & Initialization -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+  <script>
+    new WOW().init();
+  </script>
 
 </body>
 </html>

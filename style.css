@@ -1,0 +1,77 @@
+/* Header section properties
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+#header {
+  background: #74ebd5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  min-height: 100vh;
+}
+
+.fat-font {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+.hero {
+  font-size: 5em;
+}
+
+.sub-hero {
+  line-height: 5em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+.vertical-align {
+  min-height: 70vh;
+  display:flex;
+  align-items:center;
+}
+
+/* Applications section properties
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+#applications {
+  background: #EC6F6D;
+}
+
+.tech-sheet {
+  margin-top: 90px;
+}
+
+.app-title {
+
+}
+
+.app-description {
+  padding-bottom: 20px;
+}
+
+/* Contact section properties
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+#contact {
+  background: #468189;
+}
+
+/* Utilities
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+.shade {
+  background: rgba(0,0,0,0.5);
+}
+
+a {
+  color: #292B2C;
+}
+
+a:hover {
+  color: #014C8C;
+  text-decoration: none;
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+.push-down {
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
