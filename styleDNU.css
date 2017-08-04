@@ -7,12 +7,6 @@
   min-height: 100vh;
 }
 
-/*.grid-container-applications {
-  display: grid;
-  grid-template-columns: 1fr 5fr 3fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  min-height: 100vh;
-}*/
 /* Header section properties
 ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
 .pop {
@@ -64,9 +58,24 @@
 /* applications section properties
 ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
 #applications {
-  background: #F3F3F3;
+  background: #EC6F6D;
 }
 
+#safe-california {
+  margin-top: 90px;
+}
+
+#bestfit {
+  margin-top: 90px;
+}
+
+#pantry {
+  margin-top: 90px;
+}
+
+#valence {
+  margin-top: 90px;
+}
 /* Contact section properties
 ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
 #contact {
